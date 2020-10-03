@@ -5,12 +5,19 @@ package nl.leon.tournament;
  */
 public class Team {
 
+    // players
     String players;
+    // name
     String name;
+    // coach
     Coach coach;
+    // ranking
     int ranking;
+    // color
     String color;
+    // number of tournaments played
     int nrOfTournamentsPlayed;
+    // bench strength
     int benchStrength;
 
 }
