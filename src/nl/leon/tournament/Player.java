@@ -5,11 +5,18 @@ package nl.leon.tournament;
  */
 public class Player {
 
+    // position
     String position;
+    // name
     String name;
+    // country
     String country;
+    // year of birth
     int yearOfBirth;
+    // number on shirt
     int nrOnShirt;
+    // years of Experience
     int yearsOrExperience;
+    // total Goals scored
     int totalGoalsScored;
 }
