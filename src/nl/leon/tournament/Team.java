@@ -14,7 +14,7 @@ public class Team {
     // ranking
     int ranking;
     // color
-    String color;
+    Color color;
     // number of tournaments played
     int nrOfTournamentsPlayed;
     // bench strength
