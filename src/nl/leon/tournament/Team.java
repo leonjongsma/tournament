@@ -5,33 +5,37 @@ package nl.leon.tournament;
  */
 public class Team {
 
+
+    public Team() {
+
+    }
+
+    public Team(String teamname) {
+        this.name = teamname;
+    }
+
     @Override
     public String toString() {
         return "Team{" +
                 "players='" + players + '\'' +
                 ", name='" + name + '\'' +
-                ", coach=" + coach +
-                ", ranking=" + ranking +
-                ", color=" + color +
-                ", nrOfTournamentsPlayed=" + nrOfTournamentsPlayed +
-                ", benchStrength=" + benchStrength +
                 '}';
     }
 
     // players
-    String players;
+    private String players;
     // name
-    String name;
+    private String name;
     // coach
-    Coach coach;
+    private Coach coach;
     // ranking
-    int ranking;
+    private int ranking;
     // color
-    Color color;
+    private Color color;
     // number of tournaments played
-    int nrOfTournamentsPlayed;
+    private int nrOfTournamentsPlayed;
     // bench strength
-    int benchStrength;
+    private int benchStrength;
 
 
     public String getPlayers() {

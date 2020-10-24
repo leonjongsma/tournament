@@ -6,8 +6,7 @@ import java.util.stream.Stream;
  * @author : Leon Jongsma
  */
 public enum Color {
-    YELLOW(5)
-    ,BLUE,RED;
+    YELLOW,BLUE,RED;
 
     public static Stream<Color> stream() {
         return Stream.of(Color.values());
