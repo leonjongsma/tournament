@@ -6,12 +6,14 @@ import java.time.LocalDate;
  * @author : Leon Jongsma
  */
 public class Tournament {
-    String teams;
-    String games;
-    String rounds;
-    Team winner;
-    Team loser;
-    LocalDate startDate;
-    LocalDate endDate;
-    String place;
+
+    public Team[] teams;
+    public String games;
+    public String rounds;
+    public Team winner;
+    public Team loser;
+    public LocalDate startDate;
+    public LocalDate endDate;
+    public String place;
+
 }

@@ -3,7 +3,7 @@ package nl.leon.tournament;
 /**
  * @author : Leon Jongsma
  */
-public class Score {
+class Score {
 
     // points for home team
     int pointsForHomeTeam;
