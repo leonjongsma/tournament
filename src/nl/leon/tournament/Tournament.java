@@ -23,7 +23,6 @@ public class Tournament {
         rounds = new Round[amountRounds];
         teams = createRandomTeams(teams);
         rounds = createRounds(rounds,teams);
-        // in tournament we decide what teams we use.
     }
 
     private Round[] createRounds(Round[] rounds, Team[] teams) {
